@@ -19,7 +19,7 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #711c98;
+    color: #FFC107;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #0A9396;
@@ -89,7 +89,7 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #00C853;
+    background: #2979FF;
     color: #fff;
     border: 1px solid #1c9882;
     transition: .4s;
@@ -110,7 +110,7 @@ input, select{
     outline: none;
 }
 input::placeholder {
-    color: #cb1010; /* Cambia este valor al color que desees */
+    color: #60009c; /* Cambia este valor al color que desees */
 }
 
 .right .pre-simulation{
