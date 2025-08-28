@@ -24,6 +24,17 @@ function simulador(){
     //variables para realizar los calculos 
     let ganancia = 0;
     let total = 0; 
+    
+    if (cNombres == "" || cEmail == "" || cMonto == "" || cTiempo == "") {
+        alert ("Por favor complere todos los campos");
+        return
+    }else{
+    contPost.classList.remove('disabled');
+    contPre.classList.add('disabled');
+   
+
+    }
+
     switch (cTiempo) {
         case '1':
             //en este case realizaremos el calculo si el tiempo corresponde a un año]
