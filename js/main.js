@@ -27,7 +27,7 @@ function simulador(){
     
     if (cNombres == "" || cEmail == "" || cMonto == "" || cTiempo == "") {
         alert ("Por favor complere todos los campos");
-        return
+        
     }else{
     contPost.classList.remove('disabled');
     contPre.classList.add('disabled');

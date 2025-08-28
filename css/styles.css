@@ -19,7 +19,7 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color:#0D1B2A;
+    color: purple;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #0A9396;
@@ -37,7 +37,7 @@ h1{
 }
 
 h2{
-    color: #037286;
+    color: purple;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -45,7 +45,7 @@ h2{
 
 .left p{
     margin-bottom: 30px;
-    color: #2f3c46;
+    color: #050505;
 }
 
 form{
@@ -89,16 +89,16 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background:#F4B400;
+    background: rgb(56, 9, 56);
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #202d37;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
     background: #f5f8fa;
-    border: 1px solid #1c9882;
+    border: 1px solid purple;
     color: #000000;
 }
 
@@ -110,7 +110,7 @@ input, select{
     outline: none;
 }
 input::placeholder {
-    color: #2ECC71; /* Cambia este valor al color que desees */
+    color:rgb(25, 4, 25); /* Cambia este valor al color que desees */
 }
 
 .right .pre-simulation{
@@ -147,7 +147,7 @@ input::placeholder {
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: purple;
     font-weight: 600;
     font-size: 24px;
 }
@@ -186,4 +186,20 @@ input::placeholder {
 
 .notificacion h5 span{
     font-weight: 700;
+}
+footer{
+    text-align: center;
+    background: #000000;
+}
+ footer p{
+    
+    color: purple;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+footer  a{
+    color: purple;
+    text-align: center;
+    text-decoration: none;
 }
